@@ -29,7 +29,7 @@
     "ng2f-bootstrap": "^0.0.4",
     "ng2f-server": "^0.2.3",
     "reflect-metadata": "0.1.8",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "5.4.2",
     "systemjs": "0.19.40",
     "toaster": "^0.1.2",
     "toastr": "^2.1.4",
