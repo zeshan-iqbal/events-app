@@ -38,7 +38,7 @@ import { Error404Component } from "./errors/404.component";
         ToastrService,
         EventRouteActivator,
         EventListResolver,
-        AuthService
+        AuthService,
         { provide: 'canDeactivateCreateEvent', useValue: checkDirtyState }
     ],
     bootstrap: [EventsAppComponenet]
