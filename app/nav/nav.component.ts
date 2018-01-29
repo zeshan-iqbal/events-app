@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { AuthService } from "../user/index";
 
 @Component({
     selector: 'nav-bar',
@@ -11,5 +12,7 @@ import { Component } from "@angular/core";
     `]
 })
 export class NavComponent {
+    constructor(private auth: AuthService) {
 
+    }
 }
