@@ -10,7 +10,7 @@ import { NavComponent } from "./nav/nav.component";
 import { EventsService } from "./events/shared/EventsService";
 import { ToastrService } from "./common/taostr.service";
 import { EventDetailsComponent } from "./events/event-detail/event-details.component";
-import { appRoutes } from "./routes";
+import { appRoutes } from "./app.routes";
 import { CreateEventComponent } from "./events/create-event.component";
 import { Error404Component } from "./errors/404.component";
 import { EventRouteActivator } from "./events/event-detail/event-route-activator.service";
