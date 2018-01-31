@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Subject, Observable } from "rxjs/RX";
 import { IEvent } from "../index";
+import { retry } from "rxjs/operator/retry";
 
 @Injectable()
 export class EventsService {
@@ -17,6 +18,12 @@ export class EventsService {
 
   getEvent(id: number): IEvent {
     return EVENTS.find(event => event.id === id);
+  }
+
+  saveEvent(event: IEvent): void {
+    event.id = 999;
+    event.sessions = [];
+    EVENTS.push(event);    
   }
 }
 
