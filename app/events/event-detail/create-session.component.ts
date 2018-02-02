@@ -6,13 +6,14 @@ import { ISession } from "../index";
 @Component({
     templateUrl: './app/events/event-detail/create-session.component.html',
     styles: [`
-  em { float: right; color: #E05C65; padding-left: 10 px;}
-  .error input {background-color: #E3C3C5;}
-  .error ::-webkit-input-placeholder {color: #9999;}
-  .error ::-moz-placeholder {color: #9999;}
-  .error :-moz-placeholder {color: #9999;}
-  .error :-ms-input-placeholder {color: #9999;}
-  `]
+    em { float: right; color: #E05C65; padding-left: 10 px;}
+    .error input, .error select, .error textarea {background-color: #E3C3C5;}
+    .error ::-webkit-input-placeholder {color: #9999;}
+    .error ::-moz-placeholder {color: #9999;}
+    .error :-moz-placeholder {color: #9999;}
+    .error :-ms-input-placeholder {color: #9999;}
+    `
+]
 })
 export class CreateSessionComponent implements OnInit{
     newSessionForm: FormGroup;
