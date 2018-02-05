@@ -1,7 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Subject, Observable } from "rxjs/RX";
 import { IEvent } from "../index";
-import { retry } from "rxjs/operator/retry";
 
 @Injectable()
 export class EventsService {
