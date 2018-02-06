@@ -54,7 +54,7 @@ const EVENTS: IEvent[] = [
           how to write them, and how to get the new AI CLI to write 
           them for you. Given by the famous PBD, president of Angular 
           University (formerly Oxford University)`,
-        voters: ['bradgreen', 'igorminar', 'martinfowler']
+        voters: ['bradgreen', 'igorminar', 'martinfowler', 'zeeshan']
       },
       {
         id: 2,
@@ -165,7 +165,7 @@ const EVENTS: IEvent[] = [
           secret to being awesome, and how he became the President 
           of the United States through his amazing programming skills, 
           showing how you too can be success with just attitude.`,
-        voters: ['bradgreen']
+        voters: ['bradgreen', 'zeeshan', 'abdul', 'umar']
       },
     ]
   },

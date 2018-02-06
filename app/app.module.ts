@@ -21,6 +21,7 @@ import { NavComponent } from "./nav/nav.component";
 import { ToastrService } from "./common/taostr.service";
 import { appRoutes } from "./app.routes";
 import { Error404Component } from "./errors/404.component";
+import { CollapsableWellComponent } from "./common/collapsable-well.component";
 
 @NgModule({
     imports: [
@@ -38,7 +39,8 @@ import { Error404Component } from "./errors/404.component";
         CreateEventComponent,
         Error404Component,
         CreateSessionComponent,
-        SessionListComponent
+        SessionListComponent,
+        CollapsableWellComponent
     ],
     providers: [
         EventsService,
