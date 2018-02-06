@@ -7,5 +7,5 @@ import { ISession } from "../index";
     templateUrl: './app/events/event-detail/session-list.component.html'
 })
 export class SessionListComponent {
-    @Input() Sesssions: ISession[]
+    @Input() sessions: ISession[]
 }

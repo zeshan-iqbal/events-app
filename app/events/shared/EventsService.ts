@@ -24,6 +24,10 @@ export class EventsService {
     event.sessions = [];
     EVENTS.push(event);    
   }
+
+  updateEvent(event: IEvent): void{
+    
+  }
 }
 
 const EVENTS: IEvent[] = [
